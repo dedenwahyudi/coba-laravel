@@ -35,5 +35,3 @@ Route::get('/blog', [PostController::class, 'index']);
 
 // halaman single post
 Route::get('/posts/{slug}', [PostController::class, 'show']);
-
-// test
